@@ -1,3 +1,7 @@
+<script>
+  export let nickname;
+  export let name;
+</script>
 
 <style>
   .Profile-content {
@@ -30,8 +34,8 @@
       <img src="http://resource.intidev.info/inti-purple-black-white.png" alt="">
     </div>
     <div class="Profile-info">
-      <h2>Inti Dev</h2>
-      <span> Yesenia S.E.</span>
+      <h2>{nickname}</h2>
+      <span>{name}</span>
     </div>
   </div>
 </div>
